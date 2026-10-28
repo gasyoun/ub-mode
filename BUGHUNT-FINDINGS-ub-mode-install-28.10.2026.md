@@ -50,5 +50,7 @@ Upstream open PR [unclebob/ub-mode#1](https://github.com/unclebob/ub-mode/pull/1
 ## Residuals
 
 - GTD @DO (MG): upstream disposition of MEDIUM-1/MEDIUM-2 — PR the fixes to https://github.com/unclebob/ub-mode from the fork, or close; editorial call on the MEDIUM-1 referent (`poteto/verification-skill-example` candidate, unverified).
+- **Mint-failure note (28.10.2026, same pass):** the GTD row above did **not** land — `gtd_mint_row.py` stalled on the Uprava origin/main landing push on 3 attempts (two shells cut at attempt 1/6, one at 2/6; `uprava-fetch-lane.lock` observed in the shared clone, left untouched as another lane's property). Ready-to-mint card text, Q2 / owner MG / @DO / link = this report:
+  `ub-mode bughunt 28.10: decide upstream disposition — 2 MEDIUM/2 LOW findings merged on fork gasyoun/ub-mode; origin unclebob/ub-mode is push:false. PR fixes upstream or close; MEDIUM-1 referent call`
 
 _Dr. Mārcis Gasūns_
